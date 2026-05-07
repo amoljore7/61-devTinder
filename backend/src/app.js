@@ -12,7 +12,7 @@ const http = require("http");
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ['http://localhost:5173', 'https://connectify-frontend.onrender.com'],
     credentials: true,
   })
 );
